@@ -1,0 +1,14 @@
+---
+title: "R scratch space"
+---
+
+# Interactive prompt
+
+```{webr-r}
+plot(1:10)
+```
+
+
+## Purpose
+
+Sometimes I just need a quick place to do experiment with some R code.

@@ -1,0 +1,44 @@
+project:
+  type: website
+
+filters:
+  - webr
+
+website:
+  title: "webr scratch space"
+  google-analytics: 
+    tracking-id: "G-C00S3NPL7B"
+    anonymize-ip: true
+  cookie-consent: true  
+  navbar:
+    left:
+      - href: index.qmd
+    right:
+      - icon: house-fill
+        href: https://jofrhwld.github.io/
+  repo-url: https://github.com/JoFrhwld/webr-scratch
+  repo-actions: 
+    - edit
+
+webr:
+  cell-options:
+    out-width: 100%
+    fig-align: left
+    fig-width: 4
+    fig-height: 4
+  packages:
+    - tidyverse
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    author: 
+      name: Josef Fruehwald
+      url: https://jofrhwld.github.io/
+
+
+
