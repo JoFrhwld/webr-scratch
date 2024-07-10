@@ -16,6 +16,8 @@ website:
     right:
       - icon: house-fill
         href: https://jofrhwld.github.io/
+      - icon: github
+        href: https://github.com/JoFrhwld/webr-scratch
   repo-url: https://github.com/JoFrhwld/webr-scratch
   repo-actions: 
     - edit
